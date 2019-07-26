@@ -1,5 +1,3 @@
-import './variables'
-
 const galerie = document.querySelector('.galerie');
 let img = document.createElement('img');
 
