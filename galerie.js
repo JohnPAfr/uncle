@@ -1,7 +1,14 @@
+import './variables'
+
 const galerie = document.querySelector('.galerie');
+let img = document.createElement('img');
 
-let photo = document.createElement('div');
 
-photo.appendChild(document.createElement('h1'));    
+photos.forEach(photo => {
+    let imgClone = img.cloneNode();
+    imgClone.src = photo.src;
+    imgClone.alt = photo.name;
 
-galerie.appendChild(photo);
+    galerie.appendChild(imgClone);
+})
+
