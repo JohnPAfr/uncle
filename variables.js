@@ -1,6 +1,6 @@
 let photos = [
     {
-        "name": "toto",
+        "name": "first",
         "src": "https://picsum.photos/300",
         "caption": "Lorem ipsum"
     },
@@ -45,7 +45,7 @@ let photos = [
         "src": "https://picsum.photos/300"
     },
     {
-        "name": "tata",
+        "name": "last",
         "src": "https://picsum.photos/300"
     }
 ]
